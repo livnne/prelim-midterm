@@ -1,0 +1,68 @@
+
+  header {
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    overflow: hidden;
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("https://images.unsplash.com/photo-1532618500676-2e0cbf7ba8b8?q=80&w=2020&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  
+  button {
+    padding: 10px;
+    border: solid 1px black;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+  }
+  
+  h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    color: #000000;
+  }
+  h2 {
+    font-size: 1.5em; /* or any other font size you prefer */
+    font-weight: bold;
+    margin-top: 1em; /* or any other margin value you prefer */
+    margin-bottom: 0.5em; /* or any other margin value you prefer */
+    color: #000000; /* or any other color you prefer */
+  }
+
+  /* Add your styles here */
+table {
+    margin: auto;
+    width: 70%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  img {
+    max-width: 100px;
+    max-height: 50px;
+  }
+  
+  a.view-website {
+    color: blue; /* Sets the text color to blue */
+  }
+  
+  a.view-website:hover {
+    color: darkblue; /* Changes text color to dark blue when hovered */
+  }
+  

@@ -1,0 +1,75 @@
+
+  header {
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+    overflow: hidden;
+    background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("https://images.unsplash.com/photo-1438089966501-33bb60deddf6?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  button {
+    padding: 10px;
+    border: solid 1px black;
+    background: transparent;
+    color: rgb(0, 0, 0);
+    border-radius: 8px;
+  }
+  
+  
+  h1 {
+    margin-top: 70px;
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+    color: #000000;
+  }
+  h2 {
+    font-size: 1.5em; /* or any other font size you prefer */
+    font-weight: bold;
+    margin-top: 1em; /* or any other margin value you prefer */
+    margin-bottom: 0.5em; /* or any other margin value you prefer */
+    color: #000000; /* or any other color you prefer */
+  }
+
+
+  /* Style for form labels */
+label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for form inputs */
+  input[type="text"],
+  input[type="email"] {
+    width: 13%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Style for submit button */
+  button.primary {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Style for section heading */
+  .section-heading {
+    margin-top: 0;
+  }
+  
+  /* Style for paragraphs */
+  p {
+    margin-bottom: 5px;
+  }
+  

@@ -1,0 +1,90 @@
+
+
+header {
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+  overflow: hidden;
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("https://images.unsplash.com/photo-1507878866276-a947ef722fee?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.haha {
+  height: 400px;
+  width: 100%;
+  text-align: center;
+  padding-top: 100px;
+  color: white;
+  overflow: hidden;
+  background: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url("https://images.unsplash.com/photo-1458668383970-8ddd3927deed?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+button {
+  padding: 40px;
+  border: solid 1px black;
+  background: linear-gradient(rgba(255, 255, 255));
+  color: rgb(0, 0, 0);
+  border-radius: 8px;
+}
+
+h1 {
+  margin-top: 50px;
+  text-align: center;
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  color: #000000;
+}
+h2 {
+  font-size: 1.5em; /* or any other font size you prefer */
+  font-weight: bold;
+  margin-top: 1em; /* or any other margin value you prefer */
+  margin-bottom: 0.5em; /* or any other margin value you prefer */
+  color: #000000; /* or any other color you prefer */
+}
+
+.results {
+    display: grid;
+    column-gap: 14px;
+    row-gap: 14px;
+    grid-template-columns: repeat(auto-fill, minmax(400px, 400px));
+    margin-top: 50px;
+    justify-content: space-around;
+  }
+  
+  input[type="text"] {
+    border: solid 1px black;
+    padding: 10px;
+    border-radius: 8px;
+    margin-right: 4px;
+    display: inline-block;
+    width: 30%;
+  }
+  
+  button {
+    padding: 10px;
+    border: solid 1px black;
+    background: transparent;
+    color: black;
+    border-radius: 8px;
+  }
+  
+  @media (min-width: 500px) and (max-width: 768px) {
+    .results {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    input[type="text"] {
+        width: 70%;
+    }   
+  }
+  
+  @media (max-width: 499px) {
+    .results {
+        grid-template-columns: 1fr;
+    }    
+  }
